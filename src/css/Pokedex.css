@@ -1,0 +1,34 @@
+.Pokedex {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+}
+
+.game-result {
+    background: #dbe2ef;
+    margin: auto;
+    padding: 0 1rem;
+    border-radius: 5px;
+}
+
+.hand-total {
+    color: #111f4d;    
+}
+
+.Pokedex-cards {
+    max-width: 100%;
+    margin: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+}
+
+.is-winner {
+ color: #00adb5;
+ margin-top: 0;
+}
+
+.is-loser {
+    color: #ff165d;
+    margin-top: 0;
+}
